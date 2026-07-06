@@ -1,0 +1,77 @@
+{
+  "technical": [
+    {
+      "category": "Programming Languages",
+      "skills": [
+        { "name": "Java" },
+        { "name": "Python" },
+        { "name": "JavaScript" },
+        { "name": "SQL" },
+        { "name": "HTML" },
+        { "name": "CSS" },
+        { "name": "C" }
+      ]
+    },
+    {
+      "category": "Frontend Development",
+      "skills": [
+        { "name": "React" },
+        { "name": "Tailwind CSS" },
+        { "name": "Vite" }
+      ]
+    },
+    {
+      "category": "Backend Development",
+      "skills": [
+        { "name": "Node.js" },
+        { "name": "Express.js" },
+        { "name": "FastAPI" },
+        { "name": "REST APIs" }
+      ]
+    },
+    {
+      "category": "Database Systems",
+      "skills": [
+        { "name": "MySQL" },
+        { "name": "MongoDB" },
+        { "name": "PostgreSQL" }
+      ]
+    },
+    {
+      "category": "Core Computer Science",
+      "skills": [
+        { "name": "DSA (Data Structures & Algorithms)" },
+        { "name": "OOP (Object-Oriented Programming)" },
+        { "name": "DBMS (Database Management)" },
+        { "name": "Operating Systems" },
+        { "name": "Computer Networks" },
+        { "name": "Software Engineering" },
+        { "name": "Artificial Intelligence" }
+      ]
+    },
+    {
+      "category": "Developer Tools & Tech",
+      "skills": [
+        { "name": "Git" },
+        { "name": "GitHub" },
+        { "name": "VS Code" },
+        { "name": "Power BI" },
+        { "name": "WordPress" },
+        { "name": "Azure" },
+        { "name": "Google Ads" }
+
+      ]
+    }
+  ],
+  "extracurricular": [
+    { "name": "Leadership" },
+    { "name": "Public Speaking" },
+    { "name": "Communication" },
+    { "name": "Mentoring" },
+    { "name": "Teamwork" },
+    { "name": "Problem Solving" },
+    { "name": "Event Management" },
+    { "name": "Time Management" },
+    { "name": "Adaptability" }
+  ]
+}

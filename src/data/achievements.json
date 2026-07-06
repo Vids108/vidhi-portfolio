@@ -1,0 +1,42 @@
+[
+  {
+    "id": "ach-1",
+    "title": "University Rank 1",
+    "organization": "Academic Excellence",
+    "date": "2023",
+    "description": "Achieved Rank 1 in undergraduate computer science department, showcasing unparalleled dedication and strong conceptual foundations.",
+    "icon": "Trophy"
+  },
+  {
+    "id": "ach-2",
+    "title": "Most Innovative Intern",
+    "organization": "DigiDeity",
+    "date": "2025",
+    "description": "Honored with the 'Most Innovative Intern' award for developing automated solutions that optimized development workflow across dozens of client platforms.",
+    "icon": "Cpu"
+  },
+  {
+    "id": "ach-3",
+    "title": "State-Level Public Speaker",
+    "organization": "Public Speaking Tournaments",
+    "date": "2020-2023",
+    "description": "Represented university at state-level public speaking competitions, winning multiple accolades for presentation and communication quality.",
+    "icon": "Mic"
+  },
+  {
+    "id": "ach-4",
+    "title": "Best Actress Award",
+    "organization": "Guru Jambheshwar University Of Science and Technology",
+    "date": "2023",
+    "description": "Recognized for exceptional stage presence, expression, and teamwork by winning the Best Actress Award in the state-level theatrical tournament.",
+    "icon": "Sparkles"
+  },
+  {
+    "id": "ach-6",
+    "title": "Distinguished Mentorship Citation",
+    "organization": "Brain Masters",
+    "date": "2024",
+    "description": "Awarded for exceptional leadership and communication contributions that helped over 40+ students excel in academic curriculum pathways.",
+    "icon": "Users"
+  }
+]

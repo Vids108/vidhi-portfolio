@@ -1,0 +1,59 @@
+[
+  {
+    "id": "edu-1",
+    "institution": "Indira Gandhi Delhi Technical University for Women (IGDTUW)",
+    "degree": "Master of Computer Applications (MCA)",
+    "duration": "2025 - 2027",
+    "grade": "Current",
+    "coursework": [
+      "Data Structures & Algorithms (DSA)",
+      "Object-Oriented Programming (OOP)",
+      "Database Management Systems (DBMS)",
+      "Operating Systems",
+      "Computer Networks",
+      "Artificial Intelligence (AI)",
+      "Software Engineering"
+    ],
+    "highlights": [
+      "Active participant in tech hackathons and development circles"
+    ]
+  },
+  {
+    "id": "edu-2",
+    "institution": "Guru Jambheshwar University of Science and Technology ",
+    "degree": "B.Sc Computer Science",
+    "duration": "2020 - 2023",
+    "grade": "8.03 CGPA",
+    "coursework": [
+      "Data Structures & Algorithms (DSA)",
+      "Database Management Systems (DBMS)",
+      "Computer Networks",
+      "System Design",
+      "Cloud Computing"
+    ],
+    "highlights": [
+      "Graduated with Top Honors (University Rank Holder)",
+      "State-level Public Speaker representation for the college"
+    ]
+  },
+  {
+    "id": "edu-3",
+    "institution": "Central Board of Secondary Education (CBSE)",
+    "degree": "Higher Secondary (Class XII) - Non Medical",
+    "duration": "2019 - 2020",
+    "grade": "87.6%",
+    "highlights": [
+      "Active member of the high-school public speaking club"
+    ]
+  },
+  {
+    "id": "edu-4",
+    "institution": "Central Board of Secondary Education (CBSE)",
+    "degree": "Secondary Education (Class X)",
+    "duration": "2017 - 2018",
+    "grade": "87.4%",
+    "highlights": [
+      "Secured top scores in Hindi"
+    ]
+  }
+]

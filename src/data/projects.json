@@ -1,0 +1,123 @@
+[
+  {
+    "id": "proj-1",
+    "name": "Tatva",
+    "description": "AI Powered QR-based Product Verification System.",
+    "longDescription": "Tatva is a cutting-edge, anti-counterfeiting platform designed to combat product falsification. It leverages FastAPI backends, dynamic QR codes, and AI-enabled metadata analysis to provide instant, decentralized verification of luxury goods and industrial products.",
+    "techStack": [
+      "React",
+      "FastAPI",
+      "Python",
+      "PostgreSQL",
+      "AI",
+      "REST APIs"
+    ],
+    "features": [
+      "Secure unique cryptographic QR code generator and tracker",
+      "AI-driven anomaly detection to identify counterfeit patterns based on scan telemetry",
+      "High-speed FastAPI router with automatic Swagger generation",
+      "Modern dashboard displaying scan analytics, geographic maps of scanning events, and alerts",
+      "Fully responsive React user interface featuring glassmorphism elements"
+    ],
+    "duration": "3 Months",
+    "status": "Completed",
+    "github": "https://github.com/Vids108/tatva",
+    "demo": "https://tatva-demo.vercel.app",
+    "image": "/projects/tatva.png",
+    "problemStatement": "Global counterfeiting costs product-based businesses billions annually. Standard QR codes can be easily copied and cloned, leaving consumers unable to verify if a physical purchase is genuinely authentic.",
+    "architecture": "A decentralized service architecture. Built with React for the interactive client portal. Secure backend handles FastAPI endpoints. A PostgreSQL instance maintains metadata, while an AI modeling layer analyses geolocation, IP addresses, and rate metrics of scanned QR codes to flag fraudulent cloning.",
+    "challenges": "Developing a cryptographic signature system for QR codes that is highly compact yet completely tamper-proof, alongside handling bursts of concurrent validation traffic.",
+    "learningOutcomes": "Learned how to integrate AI classification models with live HTTP handlers in Python, and optimize Postgres tables using indexed UUID keys.",
+    "futureScope": "Adding Hyperledger Fabric blockchain integration to record product manufacturing ledger trails transparently."
+  },
+  {
+    "id": "proj-2",
+    "name": "VerbaFlow",
+    "description": "Desktop Translation & Language Learning Application.",
+    "longDescription": "VerbaFlow is a multi-threaded desktop utility that provides instant, high-fidelity translation coupled with rich text-to-speech rendering. Engineered with Python, Tkinter, and external translation adapters, it provides a seamless user experience with sub-second latencies.",
+    "techStack": [
+      "Python",
+      "Tkinter",
+      "Translation APIs",
+      "Text-to-Speech",
+      "Multithreading"
+    ],
+    "features": [
+      "Advanced multi-threaded request pool preventing UI freeze during long api calls",
+      "Accurate multilingual translations using state-of-the-art Translation APIs",
+      "High-fidelity TTS voices with variable speed controls",
+      "Minimalist and aesthetic modern dark-mode GUI custom-styled in Tkinter",
+      "Local translation caching to reduce outbound API token consumption"
+    ],
+    "duration": "2 Months",
+    "status": "Completed",
+    "github": "https://github.com/Vids108/verbaflow",
+    "demo": "https://github.com/vidhisachdeva/verbaflow#readme",
+    "image": "/projects/verbaflow.png",
+    "problemStatement": "Standard desktop translation programs suffer from poor rendering, frozen UI windows during remote server API calls, and lack accessible text-to-speech features for language learners.",
+    "architecture": "Python-based desktop structure utilizing CustomTkinter for the modern GUI. A backend engine handles multi-threaded HTTP requests to state-of-the-art translation and synthesis endpoints synchronously without halting the main thread's event loop.",
+    "challenges": "Synchronizing background worker threads with Tkinter's single-threaded UI drawing loop safely without throwing race condition exceptions.",
+    "learningOutcomes": "Gained an in-depth understanding of multithreading in Python, handling raw audio streaming formats, and writing custom Tkinter event bindings.",
+    "futureScope": "Deploying cross-platform installers and adding local, offline translation models (like llama.cpp) to execute without network connections."
+  },
+  {
+    "id": "proj-3",
+    "name": "Detecto",
+    "description": "Crime-Statement-Sentiment-and-behavior-Analysis-Using-NLP",
+    "longDescription": "Developed an NLP-based crime statement analysis system that detects sentiment and behavioral intent from victim, witness, and suspect statements using transformer-based AI models.",
+    "techStack": [
+      "Python",
+      "Hugging Face Transformers",
+      "RoBERTa",
+      "WordCloud",
+      "PyTorch",
+      "Scikit-learn"
+    ],
+    "features": [
+      "Classifies crime statements into Positive, Neutral, and Negative sentiments using the RoBERTa transformer model.",
+      "Identifies behavioral patterns such as Denial, Admission, and Defensive responses from textual statements.",
+      "Generates Word Clouds, Pie Charts, and performance metrics for intuitive analysis of crime-related data.",
+      "Produces structured CSV reports and evaluates model performance using Accuracy, Precision, Recall, F1-Score, and Confusion Matrix."
+    ],
+    "duration": "2 Months",
+    "status": "Completed",
+    "github": "https://github.com/Vids108/detecto",
+    "demo": "https://detecto-portal-demo.vercel.app",
+    "image": "/projects/detecto.png",
+    "problemStatement": "Automated the analysis of crime-related statements by identifying sentiment and behavioral patterns, reducing manual effort and improving consistency in forensic text interpretation.",
+    "architecture": "Dataset → Data Preprocessing → RoBERTa Sentiment Analysis → Behavior Classification → Visualization & Performance Evaluation → Final Report.",
+    "challenges": "Built a realistic dataset, handled contextual language ambiguity, integrated transformer-based sentiment analysis with rule-based behavioral classification, and evaluated performance on limited labeled data.",
+    "learningOutcomes": "Gained hands-on experience with NLP, transformer models, text classification, data visualization, model evaluation, and end-to-end machine learning pipeline development.",
+    "futureScope": "Can be extended for forensic investigations, legal document analysis, psychological behavior assessment, courtroom decision support, and AI-powered criminal intelligence systems."
+  },
+  {
+    "id": "proj-4",
+    "name": "Finder",
+    "description": "Retail Store Intelligence System",
+    "longDescription": "Developed an AI-powered retail analytics platform that transforms CCTV footage into actionable business intelligence using computer vision, customer tracking, event-driven analytics, and interactive dashboards for operational decision-making.",
+    "techStack": [
+      "YOLOv8",
+      "Plotly",
+      "ByteTrack-style Tracking",
+      "FastAPI",
+      "Streamlit",
+      "NumPy"
+    ],
+    "features": [
+       "Real-Time Customer Detection using YOLOv8 for accurate visitor identification.",
+       "Multi-Object Tracking to maintain continuous customer sessions across frames.",
+       "Zone-Based Analytics for visitor movement, dwell time, and occupancy insights.",
+       "Interactive Dashboard displaying KPIs, heatmaps, conversion rates, and operational metrics."
+    ],
+    "duration": "3 Months",
+    "status": "Completed",
+    "github": "https://github.com/Vids108/finder",
+    "demo": "https://finder-demo.vercel.app",
+    "image": "/projects/finder.png",
+    "problemStatement": "Traditional CCTV systems focus only on surveillance, leaving valuable customer behavior, store performance, and operational insights hidden. This project converts surveillance footage into measurable retail business intelligence.",
+    "architecture": "CCTV Footage → YOLOv8 Detection → Multi-Object Tracking → Re-Identification → Zone Intelligence → Event Generation → FastAPI Backend → SQLite Database → Analytics Engine → Streamlit Dashboard",
+    "challenges": "Handled real-time object detection, customer re-identification, event generation, multi-zone tracking, and scalable analytics while maintaining accurate visitor tracking and reliable retail performance measurements.",
+    "learningOutcomes": "Strengthened skills in computer vision, FastAPI development, event-driven architecture, dashboard visualization, multi-object tracking, and designing scalable AI-powered retail analytics systems.",
+    "futureScope": "Extend the platform with cross-camera tracking, predictive analytics, cloud deployment, multi-store comparison, Gemini-powered business insights, and enterprise-scale retail intelligence for large retail chains."
+  }
+]

@@ -1,0 +1,69 @@
+[
+  {
+    "id": "exp-1",
+    "company": "DigiDeity Solutions Private Limited",
+    "role": "Full Stack Developer & Google Ads Intern",
+    "duration": "Jan 2025 - July 2025",
+    "responsibilities": [
+      "Designed, developed, and launched over 30+ responsive websites and landing pages utilizing React, Tailwind CSS, HTML, CSS, and JavaScript, boosting user engagement and client satisfaction.",
+      "Architected high-performance REST APIs using Node.js to bridge clean frontend elements with robust databases.",
+      "Engineered SEO-optimized landing pages and customized CMS structures, which successfully increased organic search traffic by over 40%.",
+      "Managed and optimized high-budget Google Ads campaigns, driving improved conversion rates and dramatically lowering customer acquisition costs."
+    ],
+    "skillsUsed": [
+      "React",
+      "Node.js",
+      "Deployment",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "REST APIs",
+      "Google Ads",
+      "SEO",
+      "Landing Pages",
+      "Wordpress"
+    ],
+    "technologies": [
+      "React",
+      "Node.js",
+      "FastAPI",
+      "Google Ads",
+      "SEO",
+      "JavaScript"
+    ],
+    "achievements": [
+      "Awarded 'Most Innovative Intern' for designing an automated website generation utility",
+      "Developed and Deployed 30+ commercial client websites from conception to deployment",
+      "Improved search engine visibility across major client brands by 40%"
+    ]
+  },
+  {
+    "id": "exp-2",
+    "company": "Brain Masters",
+    "role": "Mentor",
+    "duration": "Feb 2024 - Dec 2024",
+    "responsibilities": [
+      "Delivered high-quality instruction in Science and Mathematics, adapting teaching methods to meet the learning needs of students from diverse academic backgrounds.",
+      "Developed and implemented structured lesson plans, interactive learning activities, and regular assessments to enhance student engagement and academic performance.",
+      "Guided and mentored students through personalized support and continuous feedback, strengthening analytical thinking, confidence, and overall learning outcomes."
+    ],
+    "skillsUsed": [
+      "Communication",
+      "Leadership",
+      "Teaching",
+      "Teamwork",
+      "Problem Solving",
+      "Mentoring"
+    ],
+    "technologies": [
+      "Data Structures",
+      "Algorithms",
+      "Java",
+      "Python"
+    ],
+    "achievements": [
+      "Mentored and guided 40+ students through personalized academic support, improving conceptual understanding and learning outcomes.",
+      "Designed and conducted engaging classroom activities, quizzes, and assessments to strengthen analytical thinking and problem-solving skills."
+    ]
+  }
+]

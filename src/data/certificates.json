@@ -1,0 +1,34 @@
+[
+  {
+    "id": "cert-1",
+    "title": "Internship Certification",
+    "organization": "DigiDeity Solutions Private Limited",
+    "date": "July 2025",
+    "credentialLink": "https://drive.google.com/file/d/1q5V_RZE3UBN1aLUJ8Fzyg3ng5z5-SJNR/view?usp=sharing",
+    "image": "/certificates/Internship.jpeg"
+  },
+  {
+    "id": "cert-2",
+    "title": "Frontend Development",
+    "organization": "IECS",
+    "date": "Feb 2023",
+    "credentialLink": "https://drive.google.com/file/d/1Z5YLQPQZfKyMOSz2NSnXyZ_VVYLed_0a/view?usp=sharing",
+    "image": "/certificates/frontend.jpeg"
+  },
+  {
+    "id": "cert-3",
+    "title": "Data Science Certificate",
+    "organization": "IGT Solutions",
+    "date": "Jun 2026",
+    "credentialLink": "https://drive.google.com/file/d/1quuJ7wOP16Q3zksFhST0HrhZZQ6hvjg2/view?usp=sharing",
+    "image": "/certificates/Data.jpeg"
+  },
+  {
+    "id": "cert-4",
+    "title": "Azure",
+    "organization": "Infosys Springboard",
+    "date": "July 2026",
+    "credentialLink": "https://drive.google.com/file/d/1d5KpNUt5wfDcWJneuX_L6gwwxY1CbvHz/view?usp=sharing",
+    "image": "/certificates/Azure.jpg"
+  }
+]
