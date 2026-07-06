@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Google AI Studio App</title>
+    <script>
+      // Global error listener to catch and mute the sandboxed fetch setter TypeError early
+      window.addEventListener("error", (event) => {
+        const msg = event.message || "";
+        const errorMsg = event.error?.message || "";
+        if (
+          msg.includes("Cannot set property fetch") ||
+          msg.includes("only a getter") ||
+          errorMsg.includes("Cannot set property fetch") ||
+          errorMsg.includes("only a getter")
+        ) {
+          event.preventDefault();
+          console.warn("Muted benign fetch setter exception in sandboxed context:", msg || errorMsg);
+        }
+      });
+
+      // Try to redefine window.fetch with a setter early so direct assignments do not crash
+      try {
+        const originalFetch = window.fetch;
+        if (originalFetch) {
+          let currentFetch = originalFetch;
+          Object.defineProperty(window, "fetch", {
+            get() {
+              return currentFetch;
+            },
+            set(value) {
+              currentFetch = value;
+            },
+            configurable: true,
+            enumerable: true,
+          });
+        }
+      } catch (e) {
+        console.warn("Could not define custom fetch property setter in head:", e);
+      }
+    </script>
+    <script type="module" crossorigin src="/vidhi-portfolio/assets/index-Bcj4pY00.js"></script>
+    <link rel="stylesheet" crossorigin href="/vidhi-portfolio/assets/index-BABDwUi8.css">
+  </head>
+  <body>
+    <div id="root"></div>
+  </body>
+</html>
+
